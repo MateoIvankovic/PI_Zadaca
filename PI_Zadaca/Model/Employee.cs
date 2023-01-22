@@ -34,6 +34,7 @@ namespace PI_Zadaca.Model
                     Console.WriteLine("Gas Refill");
                     vehichle.FillUpGas();
                     Console.WriteLine(GetFullName() + "'s " + vehichle.GetType() + " gas size is " + vehichle.TankSize + "% full");
+                    Console.WriteLine("_________________________________________");
 
                 }
                 if (vehichle.BatterySize < LOW)
@@ -42,6 +43,7 @@ namespace PI_Zadaca.Model
                     Console.WriteLine("Battery is refilling...");
                     vehichle.FillUpBattery();
                     Console.WriteLine(GetFullName() + "'s " + vehichle.BatterySize.ToString() + " battery size is " + vehichle.BatterySize + "% full");
+                    Console.WriteLine("_________________________________________");
 
                 }
             }
